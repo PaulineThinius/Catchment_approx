@@ -41,7 +41,7 @@ cat("\014")
 
 #-------------------------------------------------------------------------------
 # check if working directory is set correctly (e.g. start R from within the project directory)
-here::i_am("Catchment_approximation/scripts/buffer_approx_main.R")
+here::i_am("Catchment_approximation/scripts/catch_approx_main.R")
 
 path_buff_in <- here::here("input_data")
 path_buff_func <- here::here("Catchment_approximation", "scripts", "functions")
