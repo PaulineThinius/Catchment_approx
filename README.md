@@ -25,7 +25,7 @@ The resulting catchment approximations are subsequently evaluated using a global
 ```text
 .
 ├── input_data/
-│   ├── ALPAKAS_dataset/
+│   ├── ALPAKAS/
 │   ├── meteo_data_prod/
 │   │   └── ERA5land/
 │   ├── static_data_prod/
@@ -61,7 +61,7 @@ The following datasets need to be downloaded and stored in the corresponding dir
 
 | Product name | Download link | Directory | Purpose |
 |---|---|---|---|
-| ALPAKAS | [Access dataset](https://doi.org/10.5281/zenodo.19329693) | `input_data/ALPAKAS_dataset/` | Karst spring locations and discharge time series used for catchment approximation and LSTM modelling. |
+| ALPAKAS | [Access dataset](https://doi.org/10.5281/zenodo.19329693) | `input_data/ALPAKAS/` | Karst spring locations and discharge time series used for catchment approximation and LSTM modelling. |
 | GLO-30 DEM | [Access dataset](https://portal.opentopography.org/raster?opentopoID=OTSDEM.032021.4326.3) | `input_data/static_data_prod/Copernicus_GLO30_DEM/` | Digital elevation model used to derive topographic catchments and terrain information. |
 | EEA coastline | [Access dataset](https://www.eea.europa.eu/en/datahub/datahubitem-view/af40333f-9e94-4926-a4f0-0a787f1d2b8f) | `input_data/static_data_prod/EEA_Coastline/` | Coastline geometry used to constrain topographic catchment delineations. |
 | ERA5-Land | [Access dataset](https://cds.climate.copernicus.eu/datasets/reanalysis-era5-land?tab=overview) | `input_data/meteo_data_prod/ERA5land/` | Meteorological data used to estimate recharge and as dynamic input for discharge modelling. |
