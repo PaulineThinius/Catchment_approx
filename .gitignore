@@ -2,6 +2,7 @@
 .Rhistory
 .RData
 .Ruserdata
+Code.Rproj
 
 # External input data
 input_data/AlpAKaS_dataset/*
