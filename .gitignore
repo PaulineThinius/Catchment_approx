@@ -45,5 +45,5 @@ Global_LSTM/plots/*
 
 
 # Individual generated output files
-Global_LSTM/output_data/parde_coefficient_cluster.csv
+Global_LSTM/output_data/parde_coefficent_cluster.csv
 Global_LSTM/output_data/all_scores_median.csv
