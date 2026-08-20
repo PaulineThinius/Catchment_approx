@@ -47,7 +47,7 @@ path_buff_in <- here::here("input_data")
 path_buff_func <- here::here("Catchment_approximation", "scripts", "functions")
 path_buff_approx_temp <- here::here("Catchment_approximation", "temp")
 path_buff_approx_out <- here::here("Catchment_approximation", "output_data")
-path_ALPAKAS <- here::here("input_data", "AlpAKaS_dataset")
+path_ALPAKAS <- here::here("input_data", "ALPAKAS")
 path_project_files <- here::here("input_data", "project_files")
 
 

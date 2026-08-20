@@ -655,7 +655,7 @@ def cluster_parde_springs(all_parde_df, features, n_clusters=4, approaches=["kme
         plt.figure(figsize=(12, 6))
         dendrogram(Z, labels=results_df["alpakas_id"].values, leaf_rotation=90)
         plt.title("Hierarchical Clustering Dendrogram")
-        plt.xlabel("AlpAKaS ID")
+        plt.xlabel("ALPAKAS ID")
         plt.ylabel("Distance")
         plt.tight_layout()
         plt.show()

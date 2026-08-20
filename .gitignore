@@ -5,8 +5,8 @@
 Code.Rproj
 
 # External input data
-input_data/AlpAKaS_dataset/*
-!input_data/AlpAKaS_dataset/.gitkeep
+input_data/ALPAKAS/*
+!input_data/ALPAKAS/.gitkeep
 
 input_data/meteo_data_prod/ERA5land/*
 !input_data/meteo_data_prod/ERA5land/.gitkeep

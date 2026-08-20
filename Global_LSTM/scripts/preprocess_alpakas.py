@@ -21,8 +21,8 @@ import geopandas as gpd
 # Filepaths
 # ------------------------------------------------------------
 
-base_dir = r"../../input_data/AlpAKaS_dataset/catchment_aggregates" # path to ALPAKAS dataset
-base_dir_discharge = "../../input_data/AlpAKaS_dataset/"
+base_dir = r"../../input_data/ALPAKAS/catchment_aggregates" # path to ALPAKAS dataset
+base_dir_discharge = "../../input_data/ALPAKAS/"
 
 static_variables = ["elev_mean", "elev_min", "elev_max", "slope_mean", "flat_area_perc", "steep_area_perc", "northn_mean", "eastn_mean", # topography (DEM)
                     "crop_perc", "grass_perc", "shrub_perc", "dwood_perc", "mix_wood_perc", "ewood_perc", "wetland_perc",
