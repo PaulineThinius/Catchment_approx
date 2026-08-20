@@ -33,7 +33,9 @@ Global_LSTM/preprocessed_data/static/*
 
 
 # LSTM outputs
-Global_LSTM/output_data/env/*
+Global_LSTM/output_data/env/approx/*
+Global_LSTM/output_data/env/expert/*
+Global_LSTM/output_data/env/point/*
 !Global_LSTM/output_data/env/.gitkeep
 
 Global_LSTM/output_data/rand/*
