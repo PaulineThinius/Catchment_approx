@@ -18,8 +18,7 @@ input_data/static_data_prod/EEA_Coastline/*
 
 
 # Catchment approximation
-Catchment_approximation/temp/*
-!Catchment_approximation/temp/.gitkeep
+Catchment_approximation/temp/
 
 Catchment_approximation/output_data/catchment_delineations/*
 !Catchment_approximation/output_data/catchment_delineations/.gitkeep
